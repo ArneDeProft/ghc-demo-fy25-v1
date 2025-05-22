@@ -46,6 +46,35 @@ This project provides a set of CRUD APIs for managing various entities as define
    npm run dev
    ```
 
+### Docker
+
+You can also run the application using Docker:
+
+#### Run from GitHub Container Registry
+
+Pull and run the image directly from GitHub Container Registry:
+
+```sh
+docker pull ghcr.io/arnedeproft/ghc-demo-fy25-v1:main
+docker run -p 3000:3000 ghcr.io/arnedeproft/ghc-demo-fy25-v1:main
+```
+
+#### Build and run locally
+
+Build the Docker image:
+
+```sh
+docker build -t ts-api .
+```
+
+Run the Docker container:
+
+```sh
+docker run -p 3000:3000 ts-api
+```
+
+The API will be available at http://localhost:3000.
+
 ### API Endpoints
 
 The following endpoints are available for each entity:
