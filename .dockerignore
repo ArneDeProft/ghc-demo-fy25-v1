@@ -1,0 +1,52 @@
+# Version control
+.git
+.gitignore
+
+# Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Docker related
+Dockerfile
+.dockerignore
+docker-compose*
+
+# Build output
+dist
+
+# Test files
+coverage
+.nyc_output
+
+# CI/CD
+.github
+
+# Documentation
+docs
+*.md
+
+# Demo files
+demo_template.tar.gz
+.demo
